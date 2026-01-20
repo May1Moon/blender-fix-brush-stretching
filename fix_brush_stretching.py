@@ -26,9 +26,6 @@ class MESH_OT_FixBrushStretching(bpy.types.Operator):
         
         return {'FINISHED'}
     
-#@classmethod
-#def poll(cls, context):
-#    return context.mode == 'SCULPT'
     
 class FixPanel(bpy.types.Panel):
     bl_label = "Brush stretching"
